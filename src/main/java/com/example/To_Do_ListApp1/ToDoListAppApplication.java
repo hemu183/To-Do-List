@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ToDoListApp1Application {
+public class ToDoListAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ToDoListApp1Application.class, args);
+		SpringApplication.run(ToDoListAppApplication.class, args);
 	}
 
 }

@@ -1,7 +1,17 @@
 package com.example.To_Do_ListApp1.repository;
 
-import com.example.To_Do_ListApp1.entity.Task;
+import com.example.To_Do_ListApp1.model.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface TaskRepository extends JpaRepository<Task,Long> {
+import java.sql.Date;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+
+@Repository
+public interface TaskRepository extends JpaRepository<Task,Integer> {
+
 }
+
